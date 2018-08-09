@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "403057162700",
+    "firebase_url": "https://qr-84e49.firebaseio.com",
+    "project_id": "qr-84e49",
+    "storage_bucket": "qr-84e49.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403057162700:android:a2b7f9301cf7108f",
+        "android_client_info": {
+          "package_name": "com.burakod.securesystemqr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403057162700-qi92k450u30bimpausnalh7krqlt9oqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMcGuE59GnPqJHxGOtZQGaHZrHSq_U_ro"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

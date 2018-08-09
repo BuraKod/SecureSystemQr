@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    >
+
+    <LinearLayout
+        android:layout_width="800px"
+        android:layout_height="800px"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+        <com.dlazaro66.qrcodereaderview.QRCodeReaderView
+            android:id="@+id/qrdecoderview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/resultCode"
+            android:text="Kullanıcı Bilgileri burada gözükür."
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:gravity="center"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/nopass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/noicon"
+
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:id="@+id/yespass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/okey"
+                android:visibility="invisible"
+                android:layout_weight="1"
+
+
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">SecureSystemQr</string>
+
+    <string-array name="places">
+        <item>Yeri Seçiniz...</item>
+        <item>Maslak 1453</item>
+        <item>Levent Loft</item>
+        <item>SkyLine</item>
+        <item>OrmanAda</item>
+        <item>Panoroma Life</item>
+        <item>Panoroma Home</item>
+        <item>Burak Home</item>
+
+    </string-array>
+
+    <string-array name="blok">
+        <item>Blok Seçiniz...</item>
+        <item>A Blok</item>
+        <item>B Blok</item>
+        <item>C Blok</item>
+        <item>D Blok</item>
+        <item>E Blok</item>
+        <item>F Blok</item>
+
+    </string-array>
+
+
+    <string-array name="daireno">
+        <item>Daire No Seçiniz...</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>25</item>
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+        <item>125</item>
+        <item>130</item>
+        <item>140</item>
+
+
+    </string-array>
+
+</resources>

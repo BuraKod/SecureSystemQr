@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    tools:context=".ResidenceActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+
+
+        >
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo"
+            android:layout_marginBottom="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_email"
+            android:text="Lütfen Bir Misafir Kaydı Oluşturunuz"
+            android:layout_marginBottom="50dp"
+            android:gravity="center"
+            android:textColor="#468b92"
+            android:textSize="15sp"
+            />
+
+        <EditText
+            android:id="@+id/guestFullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Adı Soyadı"
+            android:layout_marginBottom="50dp"
+            android:gravity="center"
+            android:textColorHint="#468b92"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#354b57"
+            />
+        <Spinner
+            android:id="@+id/places_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            />
+        <Spinner
+            android:id="@+id/blokSpinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            />
+        <Spinner
+            android:id="@+id/daireSpinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+
+
+                >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_back"
+                    android:backgroundTint="#354b57"
+                    android:textColor="#468b92"
+                    android:text="Geri Dön"
+                    android:layout_weight="2"
+
+
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnCreateGuest"
+                    android:backgroundTint="#354b57"
+                    android:textColor="#468b92"
+                    android:text="Kayıt Oluştur"
+                    android:layout_weight="1"
+
+
+                    />
+
+
+            </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

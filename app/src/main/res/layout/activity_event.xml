@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EventsActivity"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/ImageResidence"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/residance"
+            android:background="#468b92"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rezidans Giriş Talebi"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="#468b92"
+            android:textSize="20sp"
+            android:gravity="center"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/ImageRestaurant"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/restaurant"
+            android:background="#468b92"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Restoran Rezerve İşlemleri"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="#468b92"
+            android:textSize="20sp"
+            android:gravity="center"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/ImageEvents"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/events"
+            android:background="#468b92"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Etkinlik Giriş İşlemleri"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="#468b92"
+            android:textSize="20sp"
+            android:gravity="center"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ImageScan"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/scan"
+            android:visibility="invisible"
+            android:layout_weight="1"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            />
+
+        <ImageView
+            android:id="@+id/ImageSignOut"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/signout"
+            android:layout_weight="1"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/TextScan"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="Qr Okuyucu"
+            android:visibility="invisible"
+            android:layout_weight="2"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+
+            />
+
+        <TextView
+
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:text="Oturumu Kapat"
+            android:layout_weight="2"
+
+
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
